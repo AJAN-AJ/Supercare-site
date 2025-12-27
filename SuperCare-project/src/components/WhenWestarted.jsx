@@ -6,12 +6,12 @@ function WhenWestarted(){
 
     return(
         <>
-          <div className="whoarewe-section py-20 px-5 bg-gray-100">
+          <div className="whoarewe-section py-5 px-5 bg-gray-100">
                      <div className='flex items-center justify-center flex-col mb-20'>
                        <h2 className='font-bold text-4xl'>When we started</h2>
                        <div className='h-2  bg-blue-600 w-22 rounded'></div>
                      </div> 
-                     <div className="flex  justify-center pl-40 pr-40 gap-10">
+                     <div className="flex lg:flex-row flex-col justify-center lg:pl-40 lg:pr-40 gap-10">
                          <img src={building} alt="buidings" className='flex-1 h-100'/>
                          <div>
                             <p className='text-xl'><span className='font-bold'>Our Journey & Experience</span><br /><br />

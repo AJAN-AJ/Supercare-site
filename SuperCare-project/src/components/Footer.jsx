@@ -3,8 +3,8 @@ import Cards from "/Cards.png";
 function Footer() {
     return(
         <>
-        <div className="bg-blue-100 pt-10 flex justify-center">
-            <div className="flex flex-col gap-[5%]">
+        <div className="bg-black text-white pt-10 pl-5 flex justify-center">
+            <div className="flex flex-col lg:gap-[5%] gap-10">
                 <div>
                      <h1 className="font-bold text-4xl">SUPERCARE <br /> SOLUTIONS</h1>
                 <p>Scs  is an all transaction, bank services agency
@@ -26,7 +26,7 @@ function Footer() {
                 </div>
                 
             </div>
-            <img src={Cards} alt="visa cards" className="" />
+            <img src={Cards} alt="visa cards" className="hidden lg:block " />
             
 
 
