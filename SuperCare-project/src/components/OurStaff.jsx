@@ -10,7 +10,7 @@ function OurStaff(){
           </div> 
 
           <div className="flex flex-col gap-10 justify-center items-center mb-20">
-            <div className="flex flex-row gap-5">
+            <div className="flex flex-col lg:flex-row gap-5">
             <StaffCard 
                 image={build}
                 name="S.A Nkhoma"
@@ -27,7 +27,7 @@ function OurStaff(){
                 position="Ndirande Branch Manager"
             />
             </div>
-           <div className="flex flex-row gap-5">
+           <div className="flex flex-col lg:flex-row gap-5">
             <StaffCard 
                 image={build}
                 name="Miss Grolia Muhara"

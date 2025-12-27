@@ -6,7 +6,7 @@ function WhyChooseUs(){
               <h2 className='font-bold text-4xl'>Why choose us</h2>
               <div className='h-2  bg-blue-600 w-22 rounded'></div>
             </div>
-            <div className=" ml-40 mr-40 flex justify-between">
+            <div className="ml-[5%] lg:ml-40 lg:mr-40 flex lg:flex-row flex-col justify-between">
                 <div className="flex flex-col gap-2 h-65 w-80 rounded shadow-[0_4px_15px_rgba(0,0,0,0.12)] mb-2 p-8 pt-10">
                 <p className="text-center  "><span className="font-bold">Fast and reliable</span><br /><br />
                              We are authorized agents offering mobile money a

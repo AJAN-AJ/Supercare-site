@@ -3,7 +3,7 @@ function staffCard(props) {
 
     return (
         <>
-         <div className="rounded-xl shadow-md hover:shadow-lg transition p-6 
+         <div className="rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition p-6 
                          text-center w-80">
             <img src={image} 
                  alt={name} 

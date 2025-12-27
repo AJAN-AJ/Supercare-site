@@ -5,12 +5,12 @@ function WhoAreWe(){
 
     return(
         <>
-          <div className="whoarewe-section py-20 px-5 bg-gray-100">
-            <div className='flex items-center justify-center flex-col mb-20'>
+          <div className="whoarewe-section py-20 lg:px-5 bg-gray-100">
+            <div className='flex items-center justify-center flex-col mb-10 lg:mb-20'>
               <h2 className='font-bold text-4xl'>Who we are</h2>
               <div className='h-2  bg-blue-600 w-22 rounded'></div>
             </div> 
-            <div className="flex  justify-center pl-40 pr-40 gap-10">
+            <div className="flex flex-col lg:flex-row justify-center pl-[5%] pr-[5%] lg:pl-40 lg:pr-40 lg:gap-10">
                
                 <p className='text-xl'>Supercare  Solution is a trusted and reliable
                    mobile money and banking agent service provider 
