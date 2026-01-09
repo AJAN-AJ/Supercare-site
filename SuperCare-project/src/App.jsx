@@ -20,6 +20,7 @@ function App() {
           <Route path="/charges" element={<Charges />} /> 
         </Routes>
        </BrowserRouter>   
+       
     </>
   )
 }

@@ -1,26 +1,60 @@
+@keyframes logo-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-500%);
+  }
+}
+
+.logo-scroll {
+  animation: logo-scroll 15s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .logo-scroll {
+    animation-duration: 15s; /* faster on smaller screens */
+  }
+}
+
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@keyframes logo-scroll{
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(-50%)
-    }
-}
-.logo-scroll{
-    animation: logo-scroll 15s linear infinite;
-   
+/* Fade up animation */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.group:hover .logo-scroll {
-  animation-duration: 60s;
+.fadeUp {
+  opacity: 0; /* start hidden */
+  transition: opacity 0.3s ease;
 }
 
+.fadeUp.visible {
+  animation: fadeUp 0.8s ease forwards;
+}
 
+.animate-fadeUp {
+  animation: fadeUp 1s ease-out forwards;
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-
+.fade-up {
+  animation: fadeUp 1s ease-out forwards;
+}
 
