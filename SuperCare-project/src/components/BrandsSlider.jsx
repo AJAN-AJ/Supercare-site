@@ -18,12 +18,12 @@ function BrandsSlider() {
      <p className="text-center font-bold">Brands we work for</p>
     <div className="flex justify-center  mt-5 mb-5">
     
-     <div className="w-[73%] flex items-center justify-center overflow-hidden bg-white py-6">
+     <div className="w-[73%] flex items-center justify-center overflow-hidden">
         <div className="flex w-[80%] items-center justify-center logo-scroll">
             {[...logos, ...logos].map((logo, index) => (
                 <div
                     key={index}
-                    className="flex items-center justify-center w-64 mx-4 shrink-0">
+                    className="flex items-center justify-center w-64 md:mx-4 shrink-0">
                         <img
                             src={logo}
                             alt="brand logo"
