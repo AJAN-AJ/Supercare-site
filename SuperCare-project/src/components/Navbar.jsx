@@ -149,7 +149,7 @@ function Navbar() {
 
         <iframe
           src="https://www.chatbase.co/chatbot-iframe/VeeFNdSk5zsGTFbuafGQd"
-          className="w-full h-full border-none"
+          className="w-full h-[90%] border-none"
         ></iframe>
       </div>
     </div>
