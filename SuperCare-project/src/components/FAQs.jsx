@@ -5,12 +5,12 @@ const faqs = [
   {
     question: "What services does Supercare Solutions offer?",
     answer:
-      "We offer MPamba, Airtel Money, FDH, NBS, National Bank withdrawals, deposits, and mobile money services.",
+      "We offer Bank withdrawals, deposits, and other mobile money services.",
   },
   {
     question: "Where are you located?",
     answer:
-      "We are located near Mussa area. Please visit the Contact page for directions.",
+      "Chirimba branch located at chirimba opposite kadathala furniture and Ndirande branch located in Ndirande Market next to filling station. Please visit the Contact page for directions.",
   },
   {
     question: "What are your operating hours?",
