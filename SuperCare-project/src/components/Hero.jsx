@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { Link } from "react-router-dom"
-import bg1 from "/bgpng1.jpg"
-import bg2 from "/bgpng2.jpg"
+import bg1 from "/bgpng1.webp"
+import bg2 from "/bgpng2.webp"
 import bg3 from "/bgpng3.webp"
 
 const slides = [

@@ -1,7 +1,7 @@
 function StaffCard({ name, position, image, active }) {
   return (
     <div
-      className={`snap-start flex-shrink-0 rounded-xl shadow-md border border-gray-200 transition-transform duration-500 p-6 text-center
+      className={`snap-start flex-shrink-0 mb-15 rounded-xl shadow-md border border-gray-200 transition-transform duration-500 p-6 text-center
         ${active ? "scale-100 opacity-100" : "scale-90 opacity-50"}
         w-[80vw] lg:w-80`}
     >

@@ -15,7 +15,7 @@ function BrandsSlider() {
     ]
     return (
     <>
-     <p className="text-center font-bold">Brands we work for</p>
+     <p className="mt-15 text-center font-bold">Brands we work for</p>
     <div className="flex justify-center  mt-5 mb-5">
     
      <div className="w-[73%] flex items-center justify-center overflow-hidden">

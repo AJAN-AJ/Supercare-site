@@ -1,25 +1,32 @@
 import { useRef, useEffect, useState } from "react";
 import nbs from "/chargesChats/NbsCharges.webp";
-import nbCharges from "/chargesChats/NBCharges.png";
+import nbCharges from "/chargesChats/NBcharges.webp";
 import tnmCharges from "/chargesChats/TnmCharges.jpeg";
 import Footer from "../components/Footer";
-import bg1 from "/front-view-happy-couple-sofa-making-plans-redecorate-house.jpg";
-import Fdh from "/chargesChats/FDHCharges.jpg";
+import bg1 from "/front-view-happy-couple-sofa-making-plans-redecorate-house.webp";
+import Fdh from "/chargesChats/FDHCharges.webp";
+import Centenary from "/chargesChats/Centenary.webp";
+import Finca from "/chargesChats/FINCA.webp";
+import Xpress from "/chargesChats/Xpress.webp";
+import Fcb from "/chargesChats/FirstCapital.webp";
+
+
 
 function Charges() {
   const [isPaused, setIsPaused] = useState(false);
   const containerRef = useRef();
 
   const bankCharges = [
-    { name: "MPamba", image: nbs, color: "bg-blue-500" },
-    { name: "Airtel Money", image: nbCharges, color: "bg-green-500" },
-    { name: "FDH", image: Fdh, color: "bg-purple-500" },
+    { name: "MPamba", image: nbs, color: "bg-green-500" },
+    { name: "Airtel Money", image: nbCharges, color: "bg-red-500" },
+    { name: "FDH", image: Fdh, color: "bg-blue-500" },
     { name: "NBS", image: nbs, color: "bg-red-500" },
-    { name: "National Bank", image: nbCharges, color: "bg-yellow-500" },
-    { name: "Finca", image: nbCharges, color: "bg-purple-300" },
-    { name: "StandardBank", image: nbCharges, color: "bg-blue-200" },
-    { name: "First Capital", image: nbCharges, color: "bg-yellow-500" },
-    { name: "CenteneryBank", image: nbCharges, color: "bg-green-600" },
+    { name: "National Bank", image: nbCharges, color: "bg-blue-500" },
+    { name: "Finca", image: Finca, color: "bg-rose-500" },
+    { name: "StandardBank", image: nbCharges, color: "bg-blue-700" },
+    { name: "First Capital", image: Fcb, color: "bg-blue-900 " },
+    { name: "CenteneryBank", image: Centenary, color: "bg-blue-800" },
+    { name: "Xpress", image: Xpress, color: "bg-lime-500" },
   ];
 
   // Auto scroll effect
@@ -68,7 +75,7 @@ function Charges() {
         </div>
       </div>
 
-      <div className="p-8 space-y-6">
+      <div className="md:p-8 p-4 space-y-6">
         <h2 className="text-3xl font-bold text-center">Bank Charges</h2>
 
         {/* Bank buttons */}
@@ -103,13 +110,13 @@ function Charges() {
             {[...bankCharges, ...bankCharges].map((bank, idx) => (
               <div
                 key={idx}
-                className={`flex-none w-[100%] md:w-[30%] ${bank.color} h-[40%] text-white rounded-lg flex flex-col justify-center items-center text-xl font-bold relative`}
+                className={`flex-none w-[100%] md:w-[35%] ${bank.color} h-100 md:h-140  text-white rounded-lg flex flex-col justify-center items-center text-xl font-bold relative`}
               >
                 <div className="text-lg mt-2">
-                  <img src={bank.image} alt={bank.name} className="max-h-48 object-contain" />
+                  <img src={bank.image} alt={bank.name} className="" />
                 </div>
                 {/* Overlay for non-in-focus cards on mobile */}
-                <div className="absolute inset-0 bg-white/50 md:hidden rounded-lg pointer-events-none"></div>
+                <div className="absolute inset-0 md:hidden rounded-lg pointer-events-none"></div>
               </div>
             ))}
           </div>

@@ -45,7 +45,7 @@ function Footer() {
         <div className="flex-1">
           <p className="font-bold mb-3">Contact Us</p>
           <p className="flex items-center gap-2"><MdPhone /> +265 888 350 010</p>
-          <p className="flex items-center gap-2 mt-1"><MdEmail /> sucaso@gmail.com</p>
+          <p className="flex items-center gap-2 mt-1"><MdEmail /> sucaso18@gmail.com</p>
         </div>
 
         {/* Cards Image */}

@@ -16,7 +16,7 @@ const servicesData = [
     description: "Deposit cash easily at any of our authorized SCS agents.",
     detailed:
       "Deposit money securely into your account or to others using our network of authorized agents. We support multiple banks including Mpamba, Airtel Money, FDH, Finca, NBS, and National Bank.",
-    image: "/ServicesImage/closeup-two-men-sharing-content-with-their-phones(1).jpg",
+    image: "/ServicesImage/closeup-two-men-sharing-content-with-their-phones(1).webp",
     icon: ArrowDownTrayIcon,
   },
   {
@@ -24,7 +24,7 @@ const servicesData = [
     description: "Withdraw money from multiple banks safely.",
     detailed:
       "Quick and reliable cash withdrawals from all major banks including Mpamba, Airtel Money, FDH, Finca, NBS, and National Bank. Our agents are trained to handle transactions securely and fast.",
-    image: "/ServicesImage/cheerful-student-using-phone.jpg",
+    image: "/ServicesImage/cheerful-student-using-phone.webp",
     icon: BanknotesIcon,
   },
   {
@@ -32,7 +32,7 @@ const servicesData = [
     description: "Super agent for Finca, Airtel, Mpamba.",
     detailed:
       "We provide value loading services for agents of Finca, Airtel Money, and Mpamba, ensuring seamless operations for agent businesses.",
-    image: "/ServicesImage/side-view-man-reading-menu-restaurant.jpg",
+    image: "/ServicesImage/side-view-man-reading-menu-restaurant.webp",
     icon: CurrencyDollarIcon,
   },
   {
@@ -40,7 +40,7 @@ const servicesData = [
     description: "Conveniently pay your Finca loans.",
     detailed:
       "Pay your Finca loans directly through our platform, avoiding long queues and delays.",
-    image: "/ServicesImage/patient-receiving-medical-document.jpg",
+    image: "/ServicesImage/patient-receiving-medical-document.webp",
     icon: CreditCardIcon,
   },
   {
@@ -48,7 +48,7 @@ const servicesData = [
     description: "Top up airtime or bundles instantly.",
     detailed:
       "Purchase mobile airtime and data bundles for all networks quickly and securely using our platform.",
-    image: "/ServicesImage/cheerful-student-using-phone.jpg",
+    image: "/ServicesImage/cheerful-student-using-phone.webp",
     icon: PhoneIcon,
   },
   {
@@ -56,7 +56,7 @@ const servicesData = [
     description: "Pay your water bills easily.",
     detailed:
       "Pay utility bills like water bills directly with SCS. Fast, secure, and verified.",
-    image: "/ServicesImage/cheerful-student-using-phone.jpg",
+    image: "/ServicesImage/cheerful-student-using-phone.webp",
     icon: BuildingLibraryIcon,
   },
   {
@@ -64,7 +64,7 @@ const servicesData = [
     description: "Pay school or utility fees.",
     detailed:
       "Pay your school or other fees conveniently through our platform, keeping your records safe.",
-    image: "/ServicesImage/cheerful-student-using-phone.jpg",
+    image: "/ServicesImage/cheerful-student-using-phone.webp",
     icon: DocumentTextIcon,
   },
 ];

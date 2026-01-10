@@ -1,7 +1,7 @@
 import WhoAreWe from '../components/WhoAreWe.jsx'
 import WhenWestarted from '../components/WhenWestarted.jsx'
 import Footer from '../components/Footer.jsx';
-import bg1 from '/manOncall.jpg'
+import bg1 from '/bgpng.webp'
 function About() {
   return (
     <> <div className="bg-cover bg-center w-[100%]" 
