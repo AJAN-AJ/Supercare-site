@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import logicon from "/Scslogo.png"
+import logicon from "/Scslogo.webp"
 import { useEffect, useState } from "react"
 
 function Navbar() {

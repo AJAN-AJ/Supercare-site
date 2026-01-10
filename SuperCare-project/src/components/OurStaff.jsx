@@ -1,15 +1,18 @@
 import { useState, useRef, useEffect } from "react";
 import StaffCard from "./StaffCard.jsx";
-import vick from "/staff/IMG_20251204_163247_077.jpg";
-import ceo from "/staff/IMG-20240722-WA0000.jpg";
+import vick from "/staff/IMG_20251204_163247_077.webp";
+import ceo from "/staff/CEO.webp";
+import MrsNkho from "/staff/Mrs Nkhoma.webp";
+import Nyawete from "/staff/Nyawete.webp";
+import Grolia from "/staff/GroliaMuhara.webp";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const staffList = [
   { image: ceo, name: "S.A Nkhoma", position: "Chief Executive Officer" },
-  { image: ceo, name: "M Nkhoma", position: "Chirimba Branch Manager" },
+  { image: MrsNkho, name: "M Nkhoma", position: "Chirimba Branch Manager" },
   { image: vick, name: "Victoria Nkhoma", position: "Ndirande Branch Manager" },
-  { image: ceo, name: "Miss Grolia Muhara", position: "Staff Member" },
-  { image: ceo, name: "Mrs Nyawete Ngomano", position: "Staff Member" },
+  { image: Grolia, name: "Miss Grolia Muhara", position: "Staff Member" },
+  { image: Nyawete, name: "Mrs Nyawete Ngomano", position: "Staff Member" },
   { image: ceo, name: "Miss Becalo", position: "Staff Member" },
 ];
 

@@ -86,7 +86,7 @@ function Contact() {
           <div className="flex flex-col gap-4 text-lg">
             <div className="flex items-center gap-4">
               <MdEmail className="text-blue-600 text-2xl" />
-              <p>sucaso@gmail.com</p>
+              <p>sucaso18@gmail.com</p>
             </div>
 
             <div className="flex items-center gap-4">
